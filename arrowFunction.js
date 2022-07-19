@@ -25,10 +25,12 @@ console.log(addd(5,8));
 
 
 // Practice
-console.log(`\nPractice Arrows`);
+console.log(`\nPractice`);
+
 let myarr = [5,6,4,7,8,9,85,3,2,34];
 let myarr2 = [3,5,6];
 
+console.log(`Reg Arrow`);
 let greaterThan5 = (arr) => {
     if (arr.length > 5){
         return true;
@@ -36,10 +38,11 @@ let greaterThan5 = (arr) => {
         return false;
     }
 }
-let greater5 = (arr) => arr.length > 5;
-
 console.log(greaterThan5(myarr));
 console.log(greaterThan5(myarr2));
+
+console.log(`1 line Arrow`);
+let greater5 = (arr) => arr.length > 5;
 console.log(greater5(myarr));
 console.log(greater5(myarr2));
 
@@ -57,8 +60,11 @@ let odd5s = (arr) => {
         return false;
     }
 }
-
 console.log(odd5s(myarr));
+
+console.log(`\nHW!`);
+let hello = () => console.log("Hello, World!");
+hello();
 
 
 
